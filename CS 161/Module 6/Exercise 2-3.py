@@ -8,4 +8,4 @@
 input = ["Wayne", "Katie", "Daryl", "Dan"]
 
 def rev_string_list(i):
-  return [a[::-1] for a in input]
+  return [a[::-1] for a in i]

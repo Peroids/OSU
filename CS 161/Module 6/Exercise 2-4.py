@@ -6,4 +6,13 @@
 # Sample input: ['cats', 'tacks', 'scat', 'stack'], 'cat'
 # Expected output: ['cats', 'scat']
 
-def contain_strin():
+input = ['cats', 'tacks', 'scat', 'stack']
+word = "cat"
+
+
+def contain_string(a, b):
+  return [a for a in a if b in a]
+
+# "cats" in input[range(0,len(input))]
+
+#contain_string(input, word)
